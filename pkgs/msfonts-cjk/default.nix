@@ -1,4 +1,4 @@
-{ stdenv, tar, zstd, fetchurl }:
+{ stdenv, gnutar, zstd, fetchurl }:
 
 stdenv.mkDerivation {
   pname = "berkeley-mono-typeface";
